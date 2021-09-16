@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.test.unit.AdactinLogWithTestNg">
+        <methods>
+          <include name="lastname"/>
+          <include name="roomtype"/>
+          <include name="childrenroom"/>
+          <include name="beforeclass"/>
+          <include name="continuebtn"/>
+          <include name="cctype"/>
+          <include name="noofrooms"/>
+          <include name="checkout"/>
+          <include name="radiobtn"/>
+          <include name="ccCvv"/>
+          <include name="firstname"/>
+          <include name="address"/>
+          <include name="username"/>
+          <include name="location"/>
+          <include name="ccnum"/>
+          <include name="booknow"/>
+          <include name="adultroom"/>
+          <include name="ccexpyear"/>
+          <include name="hotels"/>
+          <include name="checkin"/>
+          <include name="password"/>
+          <include name="ccexpmonth"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- org.test.unit.AdactinLogWithTestNg -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
